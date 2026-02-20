@@ -3,7 +3,7 @@
 Summary:	GUI for R-limma
 Name:		R-%{packname}
 Version:	1.38.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		X11/Applications
 Source0:	http://www.bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
