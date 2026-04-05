@@ -1,14 +1,15 @@
 %define		packname	limmaGUI
 
+%undefine	_debugsource_packages
 Summary:	GUI for R-limma
 Name:		R-%{packname}
-Version:	1.38.0
-Release:	2
+Version:	1.86.0
+Release:	1
 License:	LGPL
 Group:		X11/Applications
-Source0:	http://www.bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	50630ab8cfe8a8e8e4a273e85a53be24
-URL:		http://www.bioconductor.org/packages/release/bioc/html/limmaGUI.html
+Source0:	https://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+# Source0-md5:	a56abcfc6fdcafc1045d1bf656e699a2
+URL:		https://bioconductor.org/packages/release/bioc/html/limmaGUI.html
 BuildRequires:	R
 BuildRequires:	R-limma
 BuildRequires:	texlive-latex
